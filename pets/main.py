@@ -7,7 +7,7 @@ import time
 app = FastAPI()
 
 
-class DogType(str, Enum):
+class DogType(str, Enum): # тип собачки
     terrier = "terrier"
     bulldog = "bulldog"
     dalmatian = "dalmatian"
